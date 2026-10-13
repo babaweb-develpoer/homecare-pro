@@ -1,0 +1,1 @@
+{"name":"homecare-pro","version":"1.0.0","private":true,"type":"module","scripts":{"images":"node optimize-images.mjs","build":"node build.mjs","dev":"npx --yes serve . -l 4173"},"devDependencies":{"lucide-static":"^1.56.0","sharp":"^0.35.5"}}

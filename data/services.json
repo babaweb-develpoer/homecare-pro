@@ -1,0 +1,230 @@
+{
+  "groups": [
+    { "id": "repair", "name": "Repair & Maintenance", "icon": "wrench", "blurb": "Fast fixes for the things that break at the worst time." },
+    { "id": "cleaning", "name": "Cleaning & Hygiene", "icon": "sparkles", "blurb": "Spotless, sanitised and safe for your family." },
+    { "id": "renovation", "name": "Renovation & Building", "icon": "paintbrush", "blurb": "Upgrade, protect and refresh your property." },
+    { "id": "energy", "name": "Energy & Security", "icon": "sun", "blurb": "Cut your bills and keep your home protected." },
+    { "id": "extras", "name": "Home Extras", "icon": "truck", "blurb": "Moving, lawns and everything in between." }
+  ],
+  "services": [
+    {
+      "slug": "ac", "name": "AC Service & Repair", "group": "repair", "icon": "wind",
+      "short": "Servicing, gas refill, installation and repair for split and window ACs.",
+      "unit": "AC unit", "rate": [2500, 4500], "time": "60–90 min per unit", "warranty": "30 days on service, 90 days on repairs",
+      "tagline": "Cool air again, without the guesswork.",
+      "intro": "A dirty or low-gas AC burns more electricity and cools less. Our certified AC technicians service, repair and install all major brands, using proper tools instead of guesses, so you get real cooling and a lower bill.",
+      "includes": ["Indoor and outdoor unit chemical wash", "Gas pressure check and refill", "Drain line and filter cleaning", "Capacitor, fan and PCB checks", "Installation, relocation and dismantling", "Inverter and non-inverter, all brands"],
+      "tiers": [["Basic Service", "Rs 2,500", "Filter, coil and drain cleaning"], ["Deep Chemical Wash", "Rs 4,500", "Full indoor and outdoor wash with gas check"], ["Installation", "Rs 6,500", "Per unit, material extra"]],
+      "faqs": [["How often should I service my AC?", "Twice a year, before summer and after heavy use. In dusty areas of Lahore, a quarterly filter clean is also worth it."], ["Why is my AC not cooling?", "The usual causes are a dirty coil, low gas, a faulty capacitor or a blocked drain. Our technician diagnoses it on site before quoting."], ["Do you refill gas?", "Yes. We check pressure first and only refill if it is actually low. Gas is charged separately and shown on your quote."]],
+      "ba": "ac"
+    },
+    {
+      "slug": "plumbing", "name": "Plumbing", "group": "repair", "icon": "wrench",
+      "short": "Leaks, blockages, taps, pipes and bathroom fittings fixed properly.",
+      "unit": "visit", "rate": [1500, 5000], "time": "1–3 hours", "warranty": "30 days",
+      "tagline": "Leaks fixed once, not again and again.",
+      "intro": "From a dripping tap to a hidden wall leak, our plumbers find the real cause and fix it cleanly. We protect your floors, clean up after the job and test everything before we leave.",
+      "includes": ["Leak detection and repair", "Blocked drains and sewer lines", "Tap, mixer and shower fitting", "Commode, basin and flush tank repair", "Water motor and pump installation", "Full bathroom or kitchen re-piping"],
+      "tiers": [["Leak or Tap Fix", "Rs 1,500", "Single fault repair"], ["Fixture Installation", "Rs 3,000", "Basin, commode or mixer, per item"], ["Re-piping", "Rs 25,000+", "Full bathroom or kitchen, site survey first"]],
+      "faqs": [["Can you find a leak inside a wall?", "Yes. We use moisture meters and pressure tests to locate hidden leaks before opening anything, so we only cut where we must."], ["Do you supply fittings?", "We can supply branded fittings at a listed price, or fit the ones you have bought."], ["Is there an emergency service?", "Yes. Burst pipes and major leaks are treated as priority calls."]],
+      "ba": null
+    },
+    {
+      "slug": "electrician", "name": "Electrician", "group": "repair", "icon": "zap",
+      "short": "Wiring, switchboards, fans, lights and safe electrical repairs.",
+      "unit": "visit", "rate": [1200, 4000], "time": "1–3 hours", "warranty": "30 days",
+      "tagline": "Safe, tidy electrical work you can trust.",
+      "intro": "Faulty wiring is a real safety risk. Our licensed electricians diagnose faults, replace damaged parts and install new points to code, then test every circuit before they leave.",
+      "includes": ["Fault finding and short-circuit repair", "Switch, socket and light installation", "Fan and exhaust installation", "DB / MCB / breaker upgrades", "Earthing and load balancing", "Full house or room rewiring"],
+      "tiers": [["Minor Repair", "Rs 1,200", "Switch, socket or fixture"], ["Fault Finding", "Rs 2,500", "Tripping, sparking or dead circuits"], ["Rewiring", "Rs 4,000+", "Per room, material extra"]],
+      "faqs": [["Why does my breaker keep tripping?", "Common causes are an overloaded circuit, a faulty appliance or damaged insulation. We test each circuit to find the exact cause."], ["Do you do new connections and load upgrades?", "We handle the internal work and guide you on the utility application process."], ["Is the work safe for old houses?", "Yes. We assess old wiring first and recommend only what is actually needed."]],
+      "ba": null
+    },
+    {
+      "slug": "appliance-repair", "name": "Appliance Repair", "group": "repair", "icon": "tv",
+      "short": "Fridge, washing machine, oven, microwave and dishwasher repair at home.",
+      "unit": "appliance", "rate": [1500, 6000], "time": "1–2 hours", "warranty": "60 days on parts",
+      "tagline": "Repaired at home, no shop visits.",
+      "intro": "Before you replace a broken appliance, let us look. Many faults are inexpensive to fix. Our technicians repair most brands at your home and tell you honestly if a repair isn't worth it.",
+      "includes": ["Refrigerator and freezer cooling issues", "Washing machine and dryer faults", "Microwave and oven repair", "Dishwasher and water dispenser", "Genuine spare parts", "Free diagnosis with repair"],
+      "tiers": [["Inspection", "Rs 1,500", "Free if you proceed with repair"], ["Standard Repair", "Rs 3,500", "Most common faults, parts extra"], ["Major Repair", "Rs 6,000+", "Compressor or motor work"]],
+      "faqs": [["Which brands do you repair?", "Most major brands sold in Pakistan, including Dawlance, Haier, PEL, Samsung, LG and Orient."], ["What if parts are unavailable?", "We source genuine or compatible parts and tell you the timeline before we start."], ["Is a repair better than replacing?", "If the repair costs more than half the value of a new unit, we will honestly say so."]],
+      "ba": null
+    },
+    {
+      "slug": "geyser-gas", "name": "Geyser & Gas Fitting", "group": "repair", "icon": "flame",
+      "short": "Geyser installation, repair and safe gas pipeline fitting.",
+      "unit": "geyser", "rate": [2000, 7500], "time": "1–2 hours", "warranty": "30 days",
+      "tagline": "Safe hot water, gas leaks sorted.",
+      "intro": "Gas work must be done properly. Our trained technicians install and repair geysers and gas lines, test every joint for leaks and make sure your family stays safe through winter.",
+      "includes": ["Gas and electric geyser installation", "Pilot, thermostat and burner repair", "Gas leak detection and sealing", "Gas pipeline extension for stove or heater", "Safety valve and regulator check", "Annual geyser descaling"],
+      "tiers": [["Geyser Service", "Rs 2,000", "Descaling and safety check"], ["Installation", "Rs 4,500", "Gas or electric, material extra"], ["Gas Line Fitting", "Rs 7,500+", "Per run, pressure tested"]],
+      "faqs": [["I smell gas. What should I do?", "Switch off the main valve, open windows and avoid switches or flames. Then call us. Gas leaks are treated as emergencies."], ["How often should a geyser be serviced?", "Once a year, ideally before winter, to remove scale and check safety valves."], ["Do you install instant geysers?", "Yes. We install tank and instant models in both gas and electric versions."]],
+      "ba": null
+    },
+    {
+      "slug": "carpentry", "name": "Carpentry", "group": "repair", "icon": "hammer",
+      "short": "Doors, cabinets, wardrobes, furniture repair and custom woodwork.",
+      "unit": "job", "rate": [2000, 15000], "time": "2 hours – 3 days", "warranty": "60 days",
+      "tagline": "Skilled woodwork with a clean finish.",
+      "intro": "From a stuck door to a full kitchen of cabinets, our carpenters measure carefully, work cleanly and finish neatly. We repair what can be saved and build what you need.",
+      "includes": ["Door and window repair and fitting", "Kitchen cabinets and wardrobes", "Furniture repair and polishing", "Shelving, TV units and partitions", "Lock, hinge and handle fitting", "Custom designs on request"],
+      "tiers": [["Small Repair", "Rs 2,000", "Doors, hinges, locks"], ["Cabinet Work", "Rs 8,000", "Per unit, material extra"], ["Custom Build", "Rs 15,000+", "Quoted after measurement"]],
+      "faqs": [["Do you provide the wood and hardware?", "Yes, in your choice of wood, board or laminate. We show samples before you decide."], ["How long does a wardrobe take?", "Usually 3 to 7 days, depending on size and finish."], ["Do you do polishing?", "Yes. We offer PU, melamine and natural polish finishes."]],
+      "ba": null
+    },
+    {
+      "slug": "deep-cleaning", "name": "Home Deep Cleaning", "group": "cleaning", "icon": "sparkles",
+      "short": "Top-to-bottom cleaning of kitchens, bathrooms, floors and windows.",
+      "unit": "marla", "rate": [2400, 3600], "time": "6–10 hours for a 5-marla home", "warranty": "Re-clean within 48 hours",
+      "tagline": "A fresh start for every room.",
+      "intro": "Our trained cleaning crews arrive with professional equipment and safe products. We scrub, sanitise and polish every surface, from greasy kitchen tiles to bathroom scale, so your home feels new again.",
+      "includes": ["Kitchen degreasing and cabinet cleaning", "Bathroom descaling and sanitising", "Floor scrubbing and polishing", "Window, glass and frame cleaning", "Ceiling fan and light cleaning", "Dusting of walls, shelves and corners"],
+      "tiers": [["Apartment (3 bed)", "Rs 9,000", "Fully equipped team"], ["House (5 marla)", "Rs 14,000", "6–10 hours"], ["House (10 marla)", "Rs 26,000", "Full crew, one day"]],
+      "faqs": [["Do I need to provide supplies?", "No. Our team brings all equipment, machines and cleaning products."], ["Are the products safe for kids and pets?", "We use low-odour, family-safe products and ventilate properly. Tell us about any allergies."], ["Can you clean after renovation?", "Yes. Post-construction cleaning is available, priced by area and condition."]],
+      "ba": "kitchen"
+    },
+    {
+      "slug": "sofa-carpet", "name": "Sofa & Carpet Cleaning", "group": "cleaning", "icon": "armchair",
+      "short": "Deep extraction cleaning for sofas, carpets, rugs and mattresses.",
+      "unit": "seat", "rate": [700, 1200], "time": "2–4 hours", "warranty": "Re-clean if stains return within 7 days",
+      "tagline": "Stains lifted, freshness restored.",
+      "intro": "Hot-water extraction removes the dirt, dust mites and odours that vacuuming misses. We test fabrics first, treat stains by type and leave your furniture clean and quick to dry.",
+      "includes": ["Hot-water extraction on fabric sofas", "Stain and odour treatment", "Carpet and rug deep cleaning", "Mattress sanitising", "Curtain and cushion cleaning", "Fabric protection on request"],
+      "tiers": [["Sofa (5 seater)", "Rs 3,500", "Deep clean"], ["Carpet", "Rs 35 / sq ft", "Extraction wash"], ["Mattress", "Rs 2,500", "Per mattress, sanitised"]],
+      "faqs": [["How long until it dries?", "Most sofas are dry in 3 to 5 hours. Carpets can take a little longer depending on weather."], ["Can you remove old stains?", "We can remove most, but very old or dye-based stains may fade rather than disappear. We assess honestly first."], ["Is it safe for leather?", "Leather needs a different process. Please mention it when booking."]],
+      "ba": "sofa"
+    },
+    {
+      "slug": "water-tank", "name": "Water Tank Cleaning", "group": "cleaning", "icon": "droplets",
+      "short": "Overhead and underground tank cleaning with full sanitisation.",
+      "unit": "tank", "rate": [3000, 6000], "time": "2–3 hours", "warranty": "Water-quality guarantee for 6 months",
+      "tagline": "Clean water starts at the tank.",
+      "intro": "Algae, sludge and sediment build up inside every tank and end up in your taps. Our crews drain, scrub, wash and disinfect the tank so the water your family drinks and bathes in is safe.",
+      "includes": ["Complete draining and sludge removal", "High-pressure wash of walls and base", "Anti-bacterial disinfection", "Algae and moss treatment", "Float valve and lid check", "Before and after photos"],
+      "tiers": [["Overhead Tank", "Rs 3,000", "Up to 1,000 litres"], ["Underground Tank", "Rs 8,500", "Includes pumping out"], ["Sanitisation Add-on", "Rs 1,500", "Extended disinfection"]],
+      "faqs": [["How often should I clean my tank?", "Every 6 months. In summer or if you notice smell, colour or sediment, clean it sooner."], ["Will I lose water during the job?", "Briefly. We schedule the job so supply is back the same day."], ["Is the cleaning chemical safe?", "We use food-grade disinfectants and rinse thoroughly before refilling."]],
+      "ba": "tank"
+    },
+    {
+      "slug": "pest-control", "name": "Pest Control & Fumigation", "group": "cleaning", "icon": "bug",
+      "short": "Termite, cockroach, ant, bedbug and mosquito treatments.",
+      "unit": "home", "rate": [4500, 15000], "time": "1–3 hours", "warranty": "3–12 months, by treatment",
+      "tagline": "Pests gone, families safe.",
+      "intro": "We treat the nest, not just what you can see. Our licensed technicians use approved, low-odour treatments with the right protective gear, and give you clear instructions for staying safe afterwards.",
+      "includes": ["Termite pre- and post-construction treatment", "Cockroach and ant gel and spray", "Bedbug heat and spray treatment", "Mosquito and fly control", "Rodent management", "Safety guidance and re-entry time"],
+      "tiers": [["Cockroach / Ants", "Rs 4,500", "Full home, 3-month warranty"], ["Termite Treatment", "Rs 12,000", "1-year warranty"], ["Complete Fumigation", "Rs 15,000", "All pests, whole house"]],
+      "faqs": [["Is it safe for children and pets?", "Yes. We follow safe-use guidelines and tell you how long to stay out. Pets and food are covered or removed."], ["How soon will I see results?", "Many pests die within hours, with nests collapsing over 1 to 2 weeks."], ["Do I need to leave the house?", "For fumigation, we recommend leaving for 2 to 4 hours. We will advise before we start."]],
+      "ba": null
+    },
+    {
+      "slug": "painting", "name": "Painting", "group": "renovation", "icon": "paintbrush",
+      "short": "Interior and exterior painting, polishing and texture finishes.",
+      "unit": "sq ft", "rate": [28, 65], "time": "2–7 days", "warranty": "12 months on paint finish",
+      "tagline": "A clean, crisp finish that lasts.",
+      "intro": "Great paint jobs are 70% preparation. Our crews cover furniture, repair cracks, sand and prime before a single coat goes on, then finish with straight lines and a smooth wall.",
+      "includes": ["Wall repair, putty and sanding", "Primer and two finish coats", "Interior and exterior walls", "Wood polish and enamel", "Texture and designer finishes", "Floor and furniture protection"],
+      "tiers": [["Emulsion", "Rs 28 / sq ft", "Standard finish, labour and paint"], ["Premium Washable", "Rs 45 / sq ft", "Stain-resistant premium brands"], ["Texture / Designer", "Rs 65 / sq ft", "Feature walls and special effects"]],
+      "faqs": [["Which paint brands do you use?", "Berger, Weldon, Dulux and Diamond, as you prefer. We can supply colour cards."], ["Do I need to move my furniture?", "We move and cover furniture for you. Fragile items should be packed away."], ["How long does a 3-bedroom home take?", "Usually 4 to 6 working days, depending on wall condition."]],
+      "ba": "painting"
+    },
+    {
+      "slug": "roof-waterproofing", "name": "Roof Heat-proofing & Waterproofing", "group": "renovation", "icon": "home",
+      "short": "Cool your rooms and stop leaks with proven roof treatments.",
+      "unit": "sq ft", "rate": [75, 140], "time": "1–2 days", "warranty": "5 years on membrane systems",
+      "tagline": "Lower temperatures, zero leaks.",
+      "intro": "A bare concrete roof soaks up the Lahore sun and leaks in the monsoon. Our roof systems reflect heat and seal water out, cutting room temperatures and protecting your ceilings.",
+      "includes": ["Surface cleaning and crack repair", "Chemical waterproof coating", "Bitumen or PU membrane systems", "Reflective white heat-proofing layer", "Drain and corner sealing", "Water test after completion"],
+      "tiers": [["Chemical Coating", "Rs 75 / sq ft", "2-year warranty"], ["Bitumen Membrane", "Rs 110 / sq ft", "5-year warranty"], ["Heat + Waterproof Combo", "Rs 140 / sq ft", "5-year warranty, reflective top layer"]],
+      "faqs": [["How much cooler will my rooms be?", "Customers typically report a 3 to 6 degree drop in top-floor rooms, depending on the roof."], ["Can you do it in monsoon?", "Application needs dry weather. We plan around forecasts and use quick-cure systems where possible."], ["Do you fix existing leaks?", "Yes. We locate and repair the source before applying the coating."]],
+      "ba": "roof"
+    },
+    {
+      "slug": "tiles-flooring", "name": "Tiles, Flooring & Bathroom Renovation", "group": "renovation", "icon": "layout-grid",
+      "short": "Tile laying, marble, porcelain and complete bathroom makeovers.",
+      "unit": "sq ft", "rate": [110, 220], "time": "2–14 days", "warranty": "12 months",
+      "tagline": "Level floors, tight joints, a finish you'll notice.",
+      "intro": "Our tile fitters use levels, spacers and proper adhesive for flat, durable floors and walls. For bathrooms we handle everything from demolition and plumbing to waterproofing and fittings.",
+      "includes": ["Floor and wall tiling", "Marble, granite and porcelain", "Demolition and debris removal", "Waterproofing for wet areas", "Grouting and polishing", "Complete bathroom renovation"],
+      "tiers": [["Tile Laying", "Rs 110 / sq ft", "Labour, standard tiles"], ["Marble / Porcelain", "Rs 160 / sq ft", "Large-format and polished"], ["Bathroom Renovation", "Rs 85,000+", "Full makeover, itemised quote"]],
+      "faqs": [["How long does a bathroom renovation take?", "Typically 7 to 14 days, from demolition to final fittings."], ["Can you lay tiles over old tiles?", "Sometimes, if the base is sound. We check before recommending it."], ["Do you help choose tiles?", "Yes. We can take you to trusted dealers and calculate the quantity precisely to avoid waste."]],
+      "ba": "bathroom"
+    },
+    {
+      "slug": "false-ceiling", "name": "False Ceiling & Renovation", "group": "renovation", "icon": "lamp",
+      "short": "Gypsum and POP false ceilings with cove lighting and design.",
+      "unit": "sq ft", "rate": [180, 450], "time": "3–10 days", "warranty": "24 months",
+      "tagline": "Ceilings that make the whole room.",
+      "intro": "A false ceiling hides wiring, improves lighting and adds a designer touch. We design, install and finish gypsum and POP ceilings with clean lines, cove lights and spotlights.",
+      "includes": ["Gypsum board and POP ceilings", "Cove and spot lighting layouts", "Wiring and light installation", "Crack and damp-stain concealment", "Painting and finishing", "3D layout on request"],
+      "tiers": [["Plain Gypsum", "Rs 180 / sq ft", "Flat ceiling, finished"], ["Cove Design", "Rs 300 / sq ft", "Layered with LED cove"], ["Designer Ceiling", "Rs 450 / sq ft", "Custom patterns and lighting"]],
+      "faqs": [["Will it reduce ceiling height?", "A false ceiling usually takes 4 to 6 inches. We design around your room height."], ["Does it help with cooling?", "A gypsum ceiling adds a layer of insulation, which can reduce heat entering the room."], ["Is POP or gypsum better?", "Gypsum boards give a cleaner, faster result. POP suits intricate decorative work. We advise on both."]],
+      "ba": "ceiling"
+    },
+    {
+      "slug": "solar", "name": "Solar Installation", "group": "energy", "icon": "sun",
+      "short": "On-grid and hybrid solar systems with net-metering support.",
+      "unit": "kW", "rate": [160000, 230000], "time": "1–3 days", "warranty": "10 years panels, 5 years inverter",
+      "tagline": "Cut your electricity bill, keep the lights on.",
+      "intro": "We design solar systems for your real consumption, not a generic package. From site survey and engineering to installation and net-metering paperwork, one team handles everything.",
+      "includes": ["Free site survey and load analysis", "On-grid, hybrid and off-grid systems", "Tier-1 panels and quality inverters", "Mounting structure and wiring", "Net-metering application support", "Monitoring app and after-sales service"],
+      "tiers": [["5 kW On-grid", "From Rs 850,000", "Typical 1-2 AC home"], ["10 kW Hybrid", "From Rs 1,650,000", "With battery backup"], ["Site Survey", "Free", "Design and quote, no obligation"]],
+      "faqs": [["How much can I save?", "Most homes reduce their electricity bill by 60 to 90%, depending on system size and usage."], ["What is net metering?", "It lets you export extra power to the grid and earn credit. We help with the application."], ["How long does installation take?", "Installation takes 1 to 3 days. Net-metering approval takes longer and depends on the utility."]],
+      "ba": null
+    },
+    {
+      "slug": "ups-inverter", "name": "UPS & Inverter", "group": "energy", "icon": "battery-charging",
+      "short": "UPS and inverter installation, battery replacement and repair.",
+      "unit": "job", "rate": [4000, 25000], "time": "1–3 hours", "warranty": "30 days labour, battery as per brand",
+      "tagline": "Backup power that actually lasts.",
+      "intro": "Load-shedding shouldn't switch your life off. We size, install and maintain UPS and inverter systems properly, so your fans, lights and Wi-Fi keep running when the grid goes down.",
+      "includes": ["Load calculation and system sizing", "UPS and inverter installation", "Battery installation and replacement", "Wiring, breakers and earthing", "Repair of faulty inverters", "Battery health testing"],
+      "tiers": [["UPS Installation", "Rs 4,000", "Per unit, material extra"], ["Inverter + Battery Setup", "Rs 12,000", "Full wiring and commissioning"], ["Battery Replacement", "From Rs 15,000", "Battery cost extra"]],
+      "faqs": [["How long will the backup last?", "It depends on battery capacity and what you run. We size it for your target hours of backup."], ["Can I run an AC on a UPS?", "Only with a properly sized inverter and battery bank. We advise realistic options."], ["How long do batteries last?", "Typically 3 to 5 years with good care. We test battery health during every visit."]],
+      "ba": null
+    },
+    {
+      "slug": "cctv", "name": "CCTV & Security Cameras", "group": "energy", "icon": "camera",
+      "short": "HD camera systems with mobile live view and remote recording.",
+      "unit": "camera", "rate": [4500, 9000], "time": "3–6 hours", "warranty": "1 year on equipment",
+      "tagline": "Watch your home from anywhere.",
+      "intro": "A good CCTV system is designed around entry points and blind spots. We install clean, hidden-wire systems with mobile apps, so you can check your home, shop or office from anywhere.",
+      "includes": ["Free security assessment and camera plan", "HD and 4K cameras, indoor and outdoor", "DVR / NVR setup with storage", "Mobile live view and alerts", "Hidden wiring and neat finish", "Annual maintenance option"],
+      "tiers": [["4-Camera HD Kit", "Rs 32,000", "Installed, with 1TB storage"], ["8-Camera Kit", "Rs 62,000", "2MP–5MP, installed"], ["Mobile Setup", "Rs 3,000", "Remote viewing on your phone"]],
+      "faqs": [["Can I watch cameras on my phone?", "Yes. We set up a secure app so you can view live and recorded footage from anywhere."], ["How long is footage stored?", "It depends on storage size, usually 15 to 30 days on a 1TB drive."], ["Do cameras work at night?", "Yes. Our cameras have infrared night vision for clear black-and-white footage in the dark."]],
+      "ba": null
+    },
+    {
+      "slug": "shifting", "name": "Shifting & Packers", "group": "extras", "icon": "truck",
+      "short": "Careful packing, loading and moving within and between cities.",
+      "unit": "job", "rate": [8000, 60000], "time": "4–10 hours", "warranty": "Damage cover on packed items",
+      "tagline": "Moving day, minus the stress.",
+      "intro": "We wrap your furniture, pack your kitchen and move your belongings with trained crews and clean vehicles. Everything arrives safely and gets set up in the right room.",
+      "includes": ["Professional packing materials", "Furniture wrapping and dismantling", "Careful loading and unloading", "Local and intercity transport", "Re-assembly at your new home", "Optional unpacking service"],
+      "tiers": [["1 Room", "Rs 8,000", "Local shifting, small truck"], ["2–3 Bedrooms", "Rs 25,000", "Local shifting, full crew"], ["Full House", "Rs 45,000+", "Packing, loading and set-up"]],
+      "faqs": [["Are my items insured?", "Packed and wrapped items are covered against damage under our moving policy. Details are in your booking."], ["How far in advance should I book?", "At least 2 to 3 days. Month-end and weekends fill up fast."], ["Do you move heavy items such as pianos or safes?", "Yes, with extra crew and equipment. Tell us in advance so we can plan."]],
+      "ba": null
+    },
+    {
+      "slug": "gardening", "name": "Gardening & Lawn Care", "group": "extras", "icon": "leaf",
+      "short": "Lawn mowing, hedge trimming, planting and garden design.",
+      "unit": "visit", "rate": [2500, 8000], "time": "2–5 hours", "warranty": "Plants replaced within 14 days",
+      "tagline": "A garden you'll love coming home to.",
+      "intro": "Whether you need a one-off clean-up or a regular garden manager, our gardeners keep your lawn green, your hedges sharp and your flower beds colourful all year round.",
+      "includes": ["Lawn mowing, edging and feeding", "Hedge and tree trimming", "Planting and seasonal flowers", "Irrigation and sprinkler fitting", "Garden clean-up and waste removal", "New lawn and landscape design"],
+      "tiers": [["One-time Clean-up", "Rs 2,500", "Trimming and tidy-up"], ["Monthly Care", "Rs 6,000", "Weekly visits, up to 10 marla"], ["New Lawn / Landscaping", "From Rs 45,000", "Design and installation"]],
+      "faqs": [["How often should the lawn be mowed?", "Weekly in the growing season and every two weeks in winter."], ["Do you supply plants?", "Yes. We source seasonal plants, grass and soil at transparent prices."], ["Can you take care of my garden while I'm away?", "Yes. A monthly care plan covers watering, trimming and pest checks."]],
+      "ba": null
+    }
+  ],
+  "pairs": [
+    { "key": "ac", "title": "AC deep clean", "service": "ac", "group": "repair", "slider": true, "caption": "Clogged filter and coil, restored to like-new." },
+    { "key": "sofa", "title": "Sofa deep clean", "service": "sofa-carpet", "group": "cleaning", "caption": "Years of stains and dust, gone in one visit." },
+    { "key": "kitchen", "title": "Kitchen deep clean", "service": "deep-cleaning", "group": "cleaning", "caption": "Grease-caked stove and tiles, sparkling again." },
+    { "key": "tank", "title": "Water tank cleaning", "service": "water-tank", "group": "cleaning", "caption": "Sludge and algae removed, water made safe." },
+    { "key": "painting", "title": "Wall repair and paint", "service": "painting", "group": "renovation", "caption": "Peeling, damp-stained walls made fresh and flawless." },
+    { "key": "roof", "title": "Roof heat-proofing", "service": "roof-waterproofing", "group": "renovation", "caption": "A cracked, hot roof turned into a cool reflective surface." },
+    { "key": "bathroom", "title": "Bathroom renovation", "service": "tiles-flooring", "group": "renovation", "caption": "Old and stained, rebuilt from scratch." },
+    { "key": "ceiling", "title": "False ceiling", "service": "false-ceiling", "group": "renovation", "caption": "A cracked plain ceiling becomes a designer feature." }
+  ]
+}

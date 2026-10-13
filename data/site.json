@@ -1,0 +1,61 @@
+{
+  "brand": "HomeCare Pro",
+  "tagline": "Every home service. One trusted team.",
+  "city": "Lahore",
+  "phone": "+92 300 123 4567",
+  "phoneRaw": "923001234567",
+  "email": "hello@homecarepro.demo",
+  "address": "Office 12, Main Boulevard, Gulberg III, Lahore",
+  "hours": "Mon–Sat 8am–9pm · Sun 10am–6pm",
+  "since": 2016,
+  "stats": [
+    { "value": 12500, "suffix": "+", "label": "Jobs completed" },
+    { "value": 4.9, "suffix": "★", "label": "Average rating", "decimals": 1 },
+    { "value": 9, "suffix": " yrs", "label": "In business" },
+    { "value": 48, "suffix": "", "label": "Verified technicians" }
+  ],
+  "areas": [
+    "DHA Phase 1–8", "Gulberg", "Johar Town", "Model Town", "Bahria Town", "Wapda Town",
+    "Faisal Town", "Iqbal Town", "Lahore Cantt", "Askari 10/11", "Valencia", "Township",
+    "Garden Town", "Samanabad", "Shadman", "Raiwind Road", "Thokar Niaz Baig", "Canal Road",
+    "Ferozepur Road", "Allama Iqbal Town"
+  ],
+  "steps": [
+    { "title": "Tell us what you need", "text": "Call, WhatsApp or fill the quick form. It takes under a minute." },
+    { "title": "Get a clear quote", "text": "We confirm the price upfront in PKR. No hidden charges, ever." },
+    { "title": "Verified expert arrives", "text": "A uniformed, ID-checked technician arrives on time, often the same day." },
+    { "title": "Work done, warranty given", "text": "You approve the work, then pay. Every job carries our 30-day warranty." }
+  ],
+  "why": [
+    { "icon": "shield-check", "title": "Verified technicians", "text": "Every team member is ID-checked, trained and uniformed." },
+    { "icon": "badge-percent", "title": "Upfront PKR pricing", "text": "You see the price before we start. What we quote is what you pay." },
+    { "icon": "clock", "title": "Same-day service", "text": "Book before 2pm and we can usually be at your door the same day." },
+    { "icon": "rotate-ccw", "title": "30-day warranty", "text": "If the same problem returns within 30 days, we fix it free." }
+  ],
+  "reviews": [
+    { "name": "Ayesha Malik", "area": "DHA Phase 5", "service": "Deep cleaning", "text": "They cleaned our whole house in one day and the kitchen looked brand new. The team was polite and on time. Highly recommended.", "stars": 5 },
+    { "name": "Usman Tariq", "area": "Johar Town", "service": "AC service", "text": "Booked in the morning, technician arrived by 3pm. The AC cools like the day we bought it. Price was exactly what they quoted.", "stars": 5 },
+    { "name": "Fatima Rehman", "area": "Gulberg", "service": "Roof heat-proofing", "text": "Our top floor used to be an oven in summer. After the roof coating the difference is huge, and no leakage in the monsoon.", "stars": 5 },
+    { "name": "Hamza Sheikh", "area": "Bahria Town", "service": "Solar installation", "text": "From the site survey to installation everything was professional. Our electricity bill dropped sharply in the first month.", "stars": 5 },
+    { "name": "Sana Iqbal", "area": "Model Town", "service": "Sofa cleaning", "text": "I was sure the sofa was beyond saving. It came out looking new. They even cleaned the carpet edges without being asked.", "stars": 5 },
+    { "name": "Bilal Ahmed", "area": "Wapda Town", "service": "Plumbing", "text": "A hidden leak was damaging our wall. They found it fast, fixed it properly and cleaned up after. Honest and fair pricing.", "stars": 4 }
+  ],
+  "faqs": [
+    { "q": "How quickly can a technician reach me?", "a": "For most services in our covered areas we offer same-day visits if you book before 2pm. Emergencies such as leaks or electrical faults are prioritised." },
+    { "q": "How do I know the price before the work starts?", "a": "We give you a quote in PKR before we begin. If our technician finds extra work on site, we explain it and get your approval first. No surprise charges." },
+    { "q": "Do you give a warranty?", "a": "Yes. Every job carries a 30-day service warranty. Some services, such as roof waterproofing and solar, carry longer warranties that are listed on their pages." },
+    { "q": "Are your technicians verified?", "a": "Yes. Everyone is ID-checked, trained and wears a uniform and a company card. You can ask to see it at the door." },
+    { "q": "Which payment methods do you accept?", "a": "Cash, bank transfer, JazzCash and Easypaisa. You pay after you approve the finished work." },
+    { "q": "Do I need to be home during the service?", "a": "Someone should be present to let our team in and approve the work. For cleaning and painting we can agree a schedule that suits you." },
+    { "q": "Do you provide materials and spare parts?", "a": "Yes. We can supply genuine parts and materials at a listed price, or you can provide your own. Parts are always quoted separately and clearly." },
+    { "q": "Which areas of Lahore do you cover?", "a": "We cover most of Lahore, including DHA, Gulberg, Johar Town, Model Town, Bahria Town and Wapda Town. See the Areas page or ask us on WhatsApp." },
+    { "q": "Can I book a regular maintenance plan?", "a": "Yes. Our Annual Care Plans bundle AC servicing, plumbing and electrical checks at a discounted yearly price. See the Pricing page." },
+    { "q": "What if I'm not happy with the work?", "a": "Tell us and we will come back and make it right at no cost within the warranty period. Your satisfaction is how we earn repeat customers." }
+  ],
+  "plans": [
+    { "name": "Single Visit", "price": "From Rs 1,500", "note": "Pay as you go", "features": ["Any one service", "Same-day booking", "30-day warranty", "Upfront quote"], "highlight": false },
+    { "name": "Annual Care Basic", "price": "Rs 12,000 / year", "note": "Best for flats", "features": ["2 AC services", "1 plumbing + electrical check", "10% off all other services", "Priority booking"], "highlight": false },
+    { "name": "Annual Care Plus", "price": "Rs 24,000 / year", "note": "Most popular", "features": ["4 AC services (up to 3 units)", "2 plumbing + electrical checks", "1 deep clean + tank cleaning", "15% off all other services", "Priority and weekend booking"], "highlight": true },
+    { "name": "Annual Care Premium", "price": "Rs 48,000 / year", "note": "For large homes", "features": ["Unlimited AC servicing (up to 6 units)", "Quarterly full-home inspection", "2 deep cleans + pest control", "20% off all other services", "Dedicated service manager"], "highlight": false }
+  ]
+}

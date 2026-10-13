@@ -1,0 +1,212 @@
+{
+ "about-team": {
+  "w": 1800,
+  "h": 1005,
+  "sw": 720
+ },
+ "ba-ac-after": {
+  "w": 1000,
+  "h": 1339,
+  "sw": 520
+ },
+ "ba-ac-before": {
+  "w": 1000,
+  "h": 1339,
+  "sw": 520
+ },
+ "ba-bathroom-after": {
+  "w": 1000,
+  "h": 1339,
+  "sw": 520
+ },
+ "ba-bathroom-before": {
+  "w": 1000,
+  "h": 1339,
+  "sw": 520
+ },
+ "ba-ceiling-after": {
+  "w": 1000,
+  "h": 1339,
+  "sw": 520
+ },
+ "ba-ceiling-before": {
+  "w": 1000,
+  "h": 1339,
+  "sw": 520
+ },
+ "ba-kitchen-after": {
+  "w": 1000,
+  "h": 1339,
+  "sw": 520
+ },
+ "ba-kitchen-before": {
+  "w": 1000,
+  "h": 1339,
+  "sw": 520
+ },
+ "ba-painting-after": {
+  "w": 1000,
+  "h": 1339,
+  "sw": 520
+ },
+ "ba-painting-before": {
+  "w": 1000,
+  "h": 1339,
+  "sw": 520
+ },
+ "ba-roof-after": {
+  "w": 1000,
+  "h": 1339,
+  "sw": 520
+ },
+ "ba-roof-before": {
+  "w": 1000,
+  "h": 1339,
+  "sw": 520
+ },
+ "ba-sofa-after": {
+  "w": 1000,
+  "h": 1339,
+  "sw": 520
+ },
+ "ba-sofa-before": {
+  "w": 1000,
+  "h": 1339,
+  "sw": 520
+ },
+ "ba-tank-after": {
+  "w": 1000,
+  "h": 1339,
+  "sw": 520
+ },
+ "ba-tank-before": {
+  "w": 1000,
+  "h": 1339,
+  "sw": 520
+ },
+ "hero-home": {
+  "w": 2000,
+  "h": 1116,
+  "sw": 720
+ },
+ "hero-thumbsup": {
+  "w": 1600,
+  "h": 893,
+  "sw": 720
+ },
+ "svc-ac": {
+  "w": 1600,
+  "h": 893,
+  "sw": 720
+ },
+ "svc-appliance-repair": {
+  "w": 1600,
+  "h": 893,
+  "sw": 720
+ },
+ "svc-carpentry": {
+  "w": 1600,
+  "h": 893,
+  "sw": 720
+ },
+ "svc-cctv": {
+  "w": 1600,
+  "h": 893,
+  "sw": 720
+ },
+ "svc-deep-cleaning": {
+  "w": 1600,
+  "h": 893,
+  "sw": 720
+ },
+ "svc-electrician": {
+  "w": 1600,
+  "h": 893,
+  "sw": 720
+ },
+ "svc-false-ceiling": {
+  "w": 1600,
+  "h": 893,
+  "sw": 720
+ },
+ "svc-gardening": {
+  "w": 1600,
+  "h": 893,
+  "sw": 720
+ },
+ "svc-geyser-gas": {
+  "w": 1600,
+  "h": 893,
+  "sw": 720
+ },
+ "svc-painting": {
+  "w": 1600,
+  "h": 893,
+  "sw": 720
+ },
+ "svc-pest-control": {
+  "w": 1600,
+  "h": 893,
+  "sw": 720
+ },
+ "svc-plumbing": {
+  "w": 1600,
+  "h": 893,
+  "sw": 720
+ },
+ "svc-roof-waterproofing": {
+  "w": 1600,
+  "h": 893,
+  "sw": 720
+ },
+ "svc-shifting": {
+  "w": 1600,
+  "h": 893,
+  "sw": 720
+ },
+ "svc-sofa-carpet": {
+  "w": 1600,
+  "h": 893,
+  "sw": 720
+ },
+ "svc-solar": {
+  "w": 1600,
+  "h": 893,
+  "sw": 720
+ },
+ "svc-tiles-flooring": {
+  "w": 1600,
+  "h": 893,
+  "sw": 720
+ },
+ "svc-ups-inverter": {
+  "w": 1600,
+  "h": 893,
+  "sw": 720
+ },
+ "svc-water-tank": {
+  "w": 1600,
+  "h": 893,
+  "sw": 720
+ },
+ "team-ac-technician": {
+  "w": 1000,
+  "h": 1339,
+  "sw": 520
+ },
+ "team-cleaning-supervisor": {
+  "w": 1000,
+  "h": 1339,
+  "sw": 520
+ },
+ "team-electrician": {
+  "w": 1000,
+  "h": 1339,
+  "sw": 520
+ },
+ "team-manager": {
+  "w": 1000,
+  "h": 1339,
+  "sw": 520
+ }
+}
